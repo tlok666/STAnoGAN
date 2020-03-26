@@ -10,11 +10,11 @@
 1. python -m visdom.server
 2. 训练：python train_*.py
 
-Cardiac, CUHK分别代表对不同数据库进行训练的代码。读者可以下载开源数据库CUHK进行训练，也可以添加自己的数据进行训练。
-
 三、模型测试：
 1. python -m visdom.server
 2. python validate_*.py
 
 四、计算AUC结果：
 python evaluate/AUC_*.py
+
+文件后缀Cardiac, CUHK分别代表对不同数据库进行训练的代码。读者可以下载开源数据库CUHK进行训练，也可以添加自己的数据进行训练。
